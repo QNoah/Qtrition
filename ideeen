@@ -1,0 +1,15 @@
+1. wil nog hrefs gooien op de images en deze met behulp van javascript makkelijk kunnen veranderen.
+
+    <a href="#" id="abc">jhg</a>
+<a href="#" id="myLink">jhhghj</a>
+
+<script type="text/javascript">
+  document.getElementById("myLink").onclick = function() {
+    document.getElementById("abc").href="xyz.php"; 
+    return false;
+  };
+</script>
+
+
+
+2. slide vanzelf klikken met "populaire producten".
