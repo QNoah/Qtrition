@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=7uVbvKK-AV8
+
+^^^^ dit is hetgene wat we nodig hebben voor de webshop dit gaat het af maken! (DATA --> HTML)
+
+https://www.w3schools.com/django/django_add_record.php
+
+^^ Toevoegen van nieuwe data in HTML
+
+https://www.w3schools.com/django/django_delete_record.php
+
+^^ verwijderen van data in HTML
+
+https://www.w3schools.com/django/django_update_record.php
+
+^^ updaten van data in HTML
