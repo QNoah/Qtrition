@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% include 'header.html' %}
     <title>Shakes</title>
 </head>
 <body>
@@ -16,11 +11,10 @@
             </div>
             <div class="shake-content">
                 <h2>{{shake.name}}</h2>
-                <p>{{shake.summary}}</p>
+                <p>{{shake.description}}</p>
                 <p>€{{shake.price}}</p>
             </div>
         </div>
         {% endfor %}
     </div>
-</body>
-</html>
+{% include 'footer.html' %}

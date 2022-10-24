@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: #11001C;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+}
+#hamburger{
+    width: auto;
+    height: 40px;
+}
+header h1{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    margin-left: 5%;
+}
+.user-login{
+    margin-left: 35%;
+    margin-right: 5%;
+}
+header svg{
+    height: 30px;
+    width: auto;
+}
+.site-search form{
+    padding-left: 10%;
+    background-color: #11001C;
+    display: flex;
+    padding-bottom: 20px;
+}
+.site-search input{
+    width: 80%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    padding-top: 2px;
+}
+.site-search button{
+    height: 38px;
+    padding: 0;
+    margin: 0;
+}
+#sidebar {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: #11001C;
+    left: -300px;
+    transition: .9s;
+}
+#sidebar.active {
+    left: 0;
+}
+#sidebar ul li{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+#sidebar a{
+    color: white;
+}
+.slide-home{
+    margin-top: 20px;
+    text-align: center;
+}
+.slide-home img{
+    height: 200px;
+}
+.context-slide{
+    font-family: 'Bebas Neue', cursive;
+    background: #190028;
+    color: white;
+}
+.front-page-discount-img{
+    text-align: center;
+    height: 200px;
+}
+.front-page-discount-img img{
+   width: 80%
+}
+.grey-card{
+    color: black;
+    font-family: 'Noto Sans Display', sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    background: rgba(194, 194, 194, 0.678);
+    padding-bottom: 20px;
+}
+.grey-card h3{
+    margin: 0;
+    padding: 10px 50px;
+}
+.grey-card p{
+    width: 80%;
+    padding-left: 10%;
+}
+.category-list ul{
+    list-style-type: none;
+}
+.category-list li{
+    border: 1px solid rgba(116, 85, 228, 0.396);
+    margin-right: 10%;
+    font-size: x-large;
+}
+.category-list h2{
+    margin-left: 10%;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.category-list-item{
+    height: 50px;
+}
+.imgs-collection{
+    display: flex;
+    overflow-x: hidden;
+}
+.focus_image{
+    height: 130px;
+}
+.love-to-p{
+    padding-top: 20px;
+}
+footer{
+    margin-top: 20px;
+    background-color: #11001C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer svg{
+    color: white;
+}
+footer .socials-footer a{
+    margin-right: 5px;
+    text-decoration: none;
+  }
+  footer p{
+    color:white;
+  }
+  footer ul{
+    padding: 0;
+    display: flex;
+  }
+  footer ul li a{
+    color: white;
+  }
+  footer ul li{
+    padding-right: 5px;
+    list-style: none;
+  }
+  .copyright{
+    position: relative;
+    bottom: 0;
+  }
