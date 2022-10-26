@@ -1,8 +1,8 @@
 from django.shortcuts import render
-from .models import shakes
+from .models import *
 
 # Create your views here.
 
-def shakes(request):
-    # shakes = shakes.objects.all().order_by('name')
-    return render(request, 'shakes.html', {'shakes': shakes})
+def index(request):
+    shake = shakes.objects.all()
+    return render(request, 'shakes.html', {'shakes': shake})

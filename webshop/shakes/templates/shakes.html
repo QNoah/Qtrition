@@ -2,17 +2,17 @@
     <title>Shakes</title>
 </head>
 <body>
-    <h1>Shakes</h1>
-    <div class="shakes">
-        {% for shake in shakes %}
+    <h2>Shakes</h2>
+    <div class="shakes-bg">
+        {% for x in shakes %}
         <div class="shake">
             <div class="shake-img">
                 <img src="{{ x.image.url }}">
             </div>
             <div class="shake-content">
-                <h2>{{shake.name}}</h2>
-                <p>{{shake.description}}</p>
-                <p>€{{shake.price}}</p>
+                <h5>{{x.name}}</h5>
+                <p>{{x.summary}}</p>
+                <p>€{{x.price}}</p>
             </div>
         </div>
         {% endfor %}

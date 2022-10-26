@@ -126,6 +126,16 @@ header svg{
 .love-to-p{
     padding-top: 20px;
 }
+.shakes-bg{
+    background: rgba(128, 128, 128, 0.493);
+}
+.shake{
+    height: 100px;
+    width: 100px;
+}
+.shakes-bg{
+    display: flex;
+}
 footer{
     margin-top: 20px;
     background-color: #11001C;
